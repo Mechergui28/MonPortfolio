@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Rihab </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b26188f22.js" crossorigin="anonymous"></script></head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul>
+                    <li><a href ="index.html">Acceuil</a></li>
+                    <!-- <li><a href ="#">Services</a></li> -->
+                    <!-- <li><a href ="#">Projets</a></li> -->
+                    <li><a href ="certifs.html">Certifs</a></li>
+                    <li><a href ="infos.html">Infos</a></li>
+
+
+
+                    <i class="fas fa-bras"></i>
+                </ul>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+                <i class="fa-solid fa-square-xmark "></i>
+            </nav>
+            <div class="header-text">
+                <p> <i class="fa-solid fa-certificate"></i> </p>
+                <h1>Ici vous trouverez les certifications que <span>j'ai obtenues</span>  </h1>
+
+
+            </div>
+        </div>
+    </div>
+        <!----about -->
+
+  
+    <!--- service --->
+    <!-- <div id="services">
+       <div class="container">
+        <h1 class="sub-title">Mes services </h1>
+        <div class="services-list">
+            <div> 
+                <i class="fa-brands fa-uikit"></i>
+                <h2>Ux et UI</h2>
+                <p>Je possède des connaissances dans le domaine de l'UX et de l'UI, ayant utilisé le logiciel 
+                    Adobe XD pour créer plusieurs maquettes 
+                    </p>
+                    <a href ="#">Plus D'info</a>
+            </div>
+            <div> 
+                <i class="fa-solid fa-code"></i>
+                <h2>Développement web et mobile </h2>
+                <p>Pendant ma carrière éducative et mes stages, j'ai exploré divers langages de programmation, ainsi que des frameworks web et mobile tels que Angular, Spring Boot, Laravel, Symfony, HTML, CSS, Bootstrap, Tailwind CSS et Flutter.
+                    </p>
+                    <a href ="#">Plus D'info</a>
+            </div>
+            <div> 
+                <i class="fa-solid fa-certificate"></i><h2>Mes certifs </h2>
+                <p>À travers des certifications solides, je confirme ma compétence et 
+                    mon engagement envers l'excellence professionnelle.
+                    </p>
+                    <a href ="#">Plus D'info</a>
+            </div>
+
+        </div>
+
+       </div> 
+    </div> -->
+<!--portfolio-->
+<div id="certifs">
+    <div class="container">
+        <h1 class="sub-title">Mes certifs </h1>
+        <div class="certifs-list">
+            <div class="certif">
+                <img src="images/tcf.png">
+                
+            </div>
+        <div class="certif">
+            <img src="images/flutter.png">
+           
+        </div>
+        <div class="certif">
+            <img src="images/nodejs.jpg">
+            
+        </div>
+        <div class="certif">
+            <img src="images/angular.jpg">
+            
+        </div>
+        <div class="certif">
+            <img src="images/python.jpg">
+            
+        </div>
+      </div>
+      <!-- <a href="#" class="btn"> See more </a> -->
+    </div>
+
+</div> 
+<!---contacte-->
+<div id="contact">
+    <div class="container">
+         <div class="contact-left">
+            <h1>Contact me </h1>
+            <p><i class="fa-regular fa-envelope"></i> mecherguirihab5@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i>+216 52 963 297 </p>
+            
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/mechergui-rihab-586a0b1a3/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/settings/profile"><i class="fa-brands fa-github"></i></i></a>
+
+            </div>
+            <a href="images/RihabCv.pdf.pdf" downlowd class="btn btn2">Downlowd CV</a>
+
+         </div>
+         <div class="copyright"> © Copyright MecherguiRihab2023<i class="fa-solid fa-heart"></i></div>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-content");
+function opentab(tabname)
+{
+    for(tablink of tablinks){
+        tablink.classList.remove("active-links");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>    
+</body>
+</html>
